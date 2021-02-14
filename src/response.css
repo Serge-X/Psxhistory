@@ -1,0 +1,628 @@
+@media only screen and (max-width:1280px) and (max-height:950px)
+{
+    #cloud
+    {
+        width: 372px;
+        height: 865px;
+    }
+
+    #snake
+    {
+        width: 504px;
+        height: 750px;
+    }
+
+    #landingPageTitle
+    {
+        font-size: 5em;
+        text-align: center;
+        position: relative;
+        right: 350px;
+        bottom: 50px;
+        line-height: 130px;
+    }
+    #aboutText
+    {
+        font-family: 'Carlito', 'Times New Roman', Times, serif;
+        color: #ffffff;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        right: 180px ;
+        margin: 20% 30% 0%;
+        line-height: 89px;
+        text-shadow: -3px -3px 0 #000,
+        3px -3px 0 #000,
+        -3px  3px 0 #000,
+        3px  3px 0 #000;
+    }
+
+    #aboutTextContainer
+    {
+        width: 45vw;
+        height: 70vh;
+    }
+
+    #FFX
+    {
+        width: 464px;
+        height: 300px;
+        position: relative;
+        top: 490px;
+        left: 105px;
+    }
+
+    #Ratchet
+    {
+        width: 350px;
+        height: 230px;
+        position: relative;
+        bottom: 305px;
+        left: 289px;
+        margin-bottom: 8px;
+    }
+
+    #MGS1
+    {
+        width: 296px;
+        height: 237.43px;
+        position: relative;
+        bottom: 545px;
+        right: 16px;
+    }
+    #DMC3
+    {
+        width: 247px;
+        height: 152px;
+        position: relative;
+        bottom: 350px;
+        left: 33px;
+    }
+    #Uncharted
+    {
+        width: 288px;
+        height: 192.14px;
+        position: relative;
+        bottom: 535px;
+        left: 10px;
+        margin-bottom: -41px;
+    }
+    #Consolecontrol
+    {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        left: 500px;
+    }
+    #handhelds
+    {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        left: 500px;
+    }
+    #Leftside p
+    {
+        font-size: 60px;
+        font-family: "Carlito", 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 434px;
+        margin-right: 150px;
+
+    }
+    #Rightside
+    {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    #Rightside img
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 60px;
+        left: 0px;
+
+    }
+    #Rightside .adjustment3
+    {
+        width: 600px;
+        height: 700px;
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+    #Fleft
+    {
+        width: 700px;
+        height: 800px;
+    }
+    #Fleft .text
+    {
+        text-align: center;
+        margin: 0% 30%;
+        height: 50px;
+        font-size: 30px;
+        font-family: "Carlito",'Times New Roman', Times, serif;
+        color: #ffffff;
+        position: relative;
+        bottom: 450px;
+        left: 80px;
+
+    }
+    #Rright p
+    {
+        text-align: center;
+        font-size: 38px;
+        margin-left: 150px;
+        font-family: "Carlito",'Times New Roman', Times, serif;
+        color: #ffffff;
+    }
+    .arrowR
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 1160px;
+        z-index: 1;
+    }
+    .arrowR:hover
+    {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        bottom: 55px;
+        left: 1160px;
+        z-index: 1;
+        box-shadow: -5px 0px 40px 10px #000000;
+    }
+    .arrowL
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 20px;
+        transform: rotate(180deg);
+        z-index: 1;
+    }
+    .arrowL:hover
+    {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        bottom: 55px;
+        left: 20px;
+        transform: rotate(180deg);
+        z-index: 1;
+        box-shadow: -5px 0px 40px 10px #000000;
+    }
+
+    .ps2standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 220px;
+        left: 95px;
+    }
+    .ps3standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 220px;
+        left: 95px;
+    }
+    .ps4standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 220px;
+        left: 100px;
+    }
+    .pspstandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .vitastandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .vrstandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .movestandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .titleshrink
+    {
+        margin: 0% 20%;
+        position: relative;
+        left: 50px;
+    }
+    .ff7
+    {
+        width: 545px;
+        height: 650px;
+        position: relative;
+        top: 160px;
+        left: 10px;
+    }
+    .gt2
+    {
+        width: 405px;
+        height: 275px;
+        position: relative;
+        top: 250px;
+        left: 100px;
+    }
+    .tekken3
+    {
+        width: 450px;
+        height: 250px;
+        position: relative;
+        top: 250px;
+        left: 80px;
+    }
+    .mgs
+    {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        top: 225px;
+        left: 95px;
+    }
+    .re1
+    {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        top: 225px;
+        left: 100px;
+    }
+}
+
+/*vertical 800 laptops */
+@media only screen and (max-width:1280px) and (max-height:800px)
+{
+    #cloud
+    {
+        width: 372px;
+        height: 765px;
+    }
+
+    #snake
+    {
+        width: 504px;
+        height: 620px;
+        margin-bottom: 519px;
+    }
+
+    #landingPageTitle
+    {
+        font-size: 4em;
+        text-align: center;
+        position: relative;
+        right: 230px;
+        bottom: 50px;
+        line-height: 100px;
+    }
+
+    #aboutTextContainer
+    {
+        width: 45vw;
+        height: 70vh;
+    }
+
+    #aboutText
+    {
+        font-family: 'Carlito', 'Times New Roman', Times, serif;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        right: 120px ;
+        margin: 8% 28% 0%;
+        line-height: 89px;
+        text-shadow: -3px -3px 0 #000,
+        3px -3px 0 #000,
+        -3px  3px 0 #000,
+        3px  3px 0 #000;
+    }
+    #Selecthistory
+    {
+        width: 100vw;
+        height: 119vh;
+        background-color: #24315E;
+    }
+
+    #FFX
+    {
+        width: 464px;
+        height: 200px;
+        position: relative;
+        top: 450px;
+        left: 105px;
+    }
+
+    #Ratchet
+    {
+        width: 350px;
+        height: 230px;
+        position: relative;
+        bottom: 201px;
+        left: 289px;
+        margin-bottom: 8px;
+    }
+
+    #MGS1
+    {
+        width: 296px;
+        height: 237.43px;
+        position: relative;
+        bottom: 445px;
+        right: 16px;
+    }
+
+    #DMC3
+    {
+        width: 247px;
+        height: 152px;
+        position: relative;
+        bottom: 280px;
+        left: 33px;
+    }
+
+    #Uncharted
+    {
+        width: 288px;
+        height: 192.14px;
+        position: relative;
+        bottom: 435px;
+        left: 10px;
+        margin-bottom: -41px;
+    }
+
+    #Consolecontrol
+    {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        left: 500px;
+    }
+    #handhelds
+    {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        left: 500px;
+    }
+    #Leftside p
+    {
+        font-size: 60px;
+        font-family: "Carlito", 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 434px;
+        margin-right: 150px;
+    }
+    #Rightside
+    {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    #Rightside img
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 60px;
+        left: 0px;
+    }
+
+    #Rightside .adjustment3
+    {
+        width: 600px;
+        height: 700px;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+    
+    #Fleft
+    {
+        width: 700px;
+        height: 800px;
+    }
+    #Fleft .text
+    {
+        text-align: center;
+        margin: 0% 30%;
+        height: 50px;
+        font-size: 30px;
+        font-family: "Carlito",'Times New Roman', Times, serif;
+        color: #ffffff;
+        position: relative;
+        bottom: 450px;
+        left: 80px;
+    }
+
+    #Rright p
+    {
+        text-align: center;
+        font-size: 33px;
+        margin-left: 150px;
+        font-family: "Carlito",'Times New Roman', Times, serif;
+        color: #ffffff;
+    }
+    
+    .arrowR
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 1160px;
+        z-index: 1;
+    }
+    .arrowR:hover
+    {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        bottom: 55px;
+        left: 1160px;
+        z-index: 1;
+        box-shadow: -5px 0px 40px 10px #000000;
+    }
+    .arrowL
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 20px;
+        transform: rotate(180deg);
+        z-index: 1;
+    }
+    .arrowL:hover
+    {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        bottom: 55px;
+        left: 20px;
+        transform: rotate(180deg);
+        z-index: 1;
+        box-shadow: -5px 0px 40px 10px #000000;
+    }
+
+    .ps2standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 95px;
+    }
+    .ps3standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 95px;
+    }
+    .ps4standard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .pspstandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .vitastandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .vrstandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .movestandard
+    {
+        width: 395px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+    .titleshrink
+    {
+        margin: 0% 20%;
+        position: relative;
+        left: 50px;
+    }
+    .ff7
+    {
+        width: 545px;
+        height: 650px;
+        position: relative;
+        top: 160px;
+        left: 10px;
+    }
+    .gt2
+    {
+        width: 405px;
+        height: 275px;
+        position: relative;
+        top: 250px;
+        left: 100px;
+    }
+    .tekken3
+    {
+        width: 450px;
+        height: 250px;
+        position: relative;
+        top: 250px;
+        left: 80px;
+    }
+    .mgs
+    {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        top: 225px;
+        left: 95px;
+    }
+    .re1
+    {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        top: 225px;
+        left: 100px;
+    }
+}

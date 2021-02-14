@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#landingPage
+{
+  background-color: rgba(36, 49, 94, 0.90);
+  background-attachment: fixed;
+  background-image: url(./Images/Playstation_Buttons.png);
+  background-repeat: round;
+  background-clip: border-box;
+  background-position-y: -4050px;
+  background-size: 950px;
+  height: 100vh;
+  width: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#landingPageContainer
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#landingPageIContainer
+{
+  display: flex;
+  width: 100vw;
+  height: 82vh;
+}
+#cloud
+{
+  width: 372px;
+  height: 965px;
+  position: relative;
+  left: 56px;
+  top: 3px;
+}
+#snake
+{
+  width: 504.5px;
+  height: 788px;
+  position: relative;
+  right: 231px;
+  top: 181px;
+}
+#landingPageTitle
+{
+  display: inline;
+  font-size: 6.2em;
+  color: #ffffff;
+  margin-top: 350px;
+  margin-left: 420px;
+  text-align: center;
+  font-family: 'Carlito', 'Times New Roman', Times, serif;
+  line-height: 160px;
+  box-shadow: 240px;
+  text-shadow: 
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000;
+}
+#Homeabout
+{
+  display: flex;
+  background-image: url(./Images/yakuza5_gameplay.png);
+  height: 82vh;
+}
+.Overlay
+{
+  background-color: rgba(36, 49, 94, 0.65);
+  width: 100vw;
+  height: 100vh;
+}
+#aboutTextContainer
+{
+  width: 70vw;
+  height: 70vh;
+}
+#aboutText
+{
+  font-family: 'Carlito', 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 63px;
+  text-align: center;
+  position: relative;
+  right: 260px ;
+  margin: 20% 30% 0%;
+  line-height: 89px;
+  text-shadow: -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000;
+}
+#aboutImageContainer
+{
+  width: 50vw;
+  overflow-y: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+/* Images */
+
+#FFX
+{
+  width: 564px;
+  height: 317;
+  position: relative;
+  top: 512px;
+  left: 105px;
+}
+#Ratchet
+{
+  width: 409px;
+  height: 230px;
+  position: relative;
+  bottom: 72px;
+  left: 280px;
+  margin-bottom: 8px;
+}
+#MGS1
+{
+  width: 296px;
+  height: 237.43px;
+  position: relative;
+  bottom: 321px;
+  right: 16px;
+}
+#DMC3
+{
+  width: 247px;
+  height: 152px;
+  position: relative;
+  bottom: 371px;
+  left: 33px;
+}
+#Uncharted
+{
+  width: 288px;
+  height: 192.14px;
+  position: relative;
+  bottom: 564px;
+  right: 217px;
+  margin-bottom: -41px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Home history selection */
+
+#Selecthistory
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: #24315E;
+}
+#Consolecontrol
+{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 200px;
+  left: 800px;
+}
+#handhelds
+{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 200px;
+  left: 800px;
+}
+.Psbutton
+{
+  width: 297px;
+  height: 297px;
+}
+#handhelds .Psbutton:hover
+{
+  border-radius: 65px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blueviolet; 
+}
+#Consolecontrol .Psbutton:hover
+{
+  border-radius: 65px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightskyblue; 
+}
+#ps1Logo
+{
+  width: 152px;
+  height: 152px;
+  position: relative;
+  bottom: 230px;
+  right: 230px;  
+  /* background-color: #24315E; */
+
+}
+#ps1Logo:hover
+{
+  width: 152px;
+  height: 152px;
+  position: relative;
+  bottom: 230px;
+  right: 230px;  
+  box-shadow: 5px 10px 5px 5px #272524;
+}
+#handhelds #ps1Logo
+{
+  width: 202px;
+  height: 130px;
+  position: relative;
+  bottom: 230px;
+  right: 230px;  
+}
+
+#ps2Logo
+{
+  width: 226px;
+  height: 75.5px;
+  position: relative;
+  bottom: 580px;
+  left: 45px;
+}
+#ps2Logo:hover
+{
+  width: 226px;
+  height: 75.5px;
+  position: relative;
+  bottom: 580px;
+  left: 45px;  
+  box-shadow: 0px 10px 5px 5px #272524;
+}
+#ps3Logo
+{
+  width: 226px;
+  height: 75.5px;
+  position: relative;
+  bottom: 425px;
+  left: 350px;
+}
+#ps3Logo:hover
+{
+  width: 226px;
+  height: 75.5px;
+  position: relative;
+  bottom: 425px;
+  left: 350px;
+  box-shadow: -5px 10px 5px 5px #272524;
+
+}
+#handhelds #ps3Logo
+{
+  width: 150px;
+  height: 100px;
+}
+#ps4Logo
+{
+  width: 225.5px;
+  height: 72.5px;
+  position: relative;
+  bottom: 280px;
+  left: 40px;
+}
+#ps4Logo:hover
+{
+  width: 225.5px;
+  height: 72.5px;
+  position: relative;
+  bottom: 280px;
+  left: 40px;
+  box-shadow: 0px -10px 5px 5px #272524;
+}
+
+.Centeringtitle
+{
+  width: 99.1vw;
+  height: 7.2vh;
+}
+
+p.Centeringtitle 
+{
+  text-align: center;
+  font-family: 'Carlito', 'Times New Roman', Times, serif;
+  font-size: 63px;
+  color: #ffffff;
+  position: relative;
+  bottom: 10px;
+  text-shadow: -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000;
+}
+button
+{
+  height: 50px;
 }

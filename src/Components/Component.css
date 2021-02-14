@@ -1,0 +1,294 @@
+#Test
+{
+    background-color: #24315E;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#Leftside
+{
+    width: 960px;
+    height: 100vh;
+}
+#Rightside
+{
+    width: 960px;
+    height: 100vh;
+    display: inline;
+}
+#Rightside img
+{
+    width: 750px;
+    height: 750px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+
+}
+#Leftside p
+{
+    font-size: 80px;
+    font-family: "Carlito", 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 434px;
+    margin-right: 150px;
+
+}
+#Rightside .adjustment1
+{
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: -120px;
+}
+#Rightside .adjustment3
+{
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#Rightside .adjustment4
+{
+    width: 800px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: -30px;
+}
+#Rightside .adjustmentpsp
+{
+    width: 800px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: -30px;
+}
+#Rightside .adjustmentvita
+{
+    width: 800px;
+    height: 400px;
+    margin-top: 210px;
+    margin-left: -30px;
+}
+#Rightside .adjustmentmove
+{
+    width: 800px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: -30px;
+    transform: rotateZ(-90deg);
+}
+#Famousbox
+{
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 800px;
+    background-color: #1a1919;
+
+}
+#Fleft
+{
+    width: 960px;
+    height: 800px;
+}
+#Fleft .text
+{
+    text-align: center;
+    margin: 0% 25%;
+    height: 50px;
+    font-size: 40px;
+    font-family: "Carlito",'Times New Roman', Times, serif;
+    color: #ffffff;
+    position: relative;
+    bottom: 450px;
+    left: 80px;
+
+}
+#Mdivide
+{
+    width: 60px;
+    height: 800px;
+    margin-top: 20px;
+    transform: skew(-25deg,-1deg) scaleY(1.1);
+    background-color: #282626;
+}
+#Rright
+{
+    width: 960px;
+    height: 800px;
+}
+#Rright p
+{
+    text-align: center;
+    font-size: 63px;
+    font-family: "Carlito",'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}
+.bk
+{
+    transform: rotate(90deg) translateX(130px);
+    position: relative;
+    right: 180px;
+}
+
+#Famousbox  #ArrowContainer
+{
+    width: 100vw;
+    height: 20px;
+    background-color: aqua;
+}
+.arrowL
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+.arrowL:hover
+{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 55px;
+    left: 20px;
+    transform: rotate(180deg);
+    z-index: 1;
+    box-shadow: -5px 0px 40px 10px #000000;
+
+}
+.arrowR
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 65px;
+    left: 1780px;
+    z-index: 1;
+}
+.arrowR:hover
+{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 55px;
+    left: 1780px;
+    z-index: 1;
+    box-shadow: -5px 0px 40px 10px #000000;
+
+}
+/*Game image size*/
+.ff7
+{
+    width: 903px;
+    height: 775px;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+.gt2
+{
+    width: 575px;
+    height: 475px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.tekken3
+{
+    width: 550px;
+    height: 450px;
+    position: relative;
+    top: 120px;
+    left: 170px;
+}
+.mgs
+{
+    width: 700px;
+    height: 450px;
+    position: relative;
+    top: 120px;
+    left: 130px;
+}
+.re1
+{
+    width: 700px;
+    height: 450px;
+    position: relative;
+    top: 120px;
+    left: 130px;
+}
+/*ps2 games */
+.ps2standard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+/* ps3 games */
+.ps3standard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+
+/* ps4 games */
+.ps4standard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+/* Psp games */
+.pspstandard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+/* vita games */
+.vitastandard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+/* vr games */
+.vrstandard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+/* move */
+.movestandard
+{
+    width: 743px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.titleshrink
+{
+    margin: 0% 20%;
+}
