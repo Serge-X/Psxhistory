@@ -17,7 +17,7 @@ function App() {
     <div  >
       <Router>
       <Switch>
-      <Route path="/"  exact component={HomePage}/>
+      <Route path="/Psxhistory/"  exact component={HomePage}/>
       <Route path="/Playstation1"   component={Playstation1}/>
       <Route path="/Playstation2"   component={Playstation2}/>
       <Route path="/Playstation3"   component={Playstation3}/>
