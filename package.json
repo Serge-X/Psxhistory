@@ -14,7 +14,7 @@
     "react-spring": "^8.0.27",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "/",
+  "homepage": "https://serge-x.github.io/Psxhistory/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
