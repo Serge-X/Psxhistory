@@ -67,7 +67,6 @@ function HistorySelection()
             switch (cConsole) 
             {
                 case "Consolecontrol":
-                    console.log(cConsole);
                     setConsole(fakeconsolestate[1]);
                     setCPic(Ps4_Black_Button);
                     setLPic(PsP_Logo);
@@ -78,7 +77,6 @@ function HistorySelection()
                     setRoute(consoleroute2);
                     break;
                 case "handhelds":
-                    console.log(cConsole);
                     setConsole(fakeconsolestate[0]);
                     setCPic(Ps4_Button);
                     setLPic(Ps1_Logo);
