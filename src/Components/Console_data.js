@@ -62,5 +62,5 @@ export const move=
     {text:`Use the playstation move to help Ryu hack and slash into victory. Released in 2012.`, title:"Ninja Gaiden 3", adjustment:"movestandard"},
     {text:`Use the move in this classic rail shooting to shoot enemies using powerful weapons. Released in 2010. `, title:"Time Crisis: Razing Storm", adjustment:"movestandard", extra:"titleshrink"},
     {text:`Use the move to help the angry birds get their eggs. Released in 2012.`, title:"Angry Birds", adjustment:"movestandard"},
-    {text:`Use the move to help Mickey to beat Mad Doctor.`, title:"Epic Mickey 2: The Power of Two", adjustment:"movestandard", extra:"titleshrink"},
+    {text:`Use the move to help Mickey to beat Mad Doctor. Released in 2012.`, title:"Epic Mickey 2: The Power of Two", adjustment:"movestandard", extra:"titleshrink"},
 ]
