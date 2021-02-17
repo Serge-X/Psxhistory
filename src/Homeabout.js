@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+// import "./response.css";
+// import './App.css';
 import FFX from './Images/FinalFantasyX_gameplay.jpg'
 import DMC3 from './Images/dmc3_gameplay.jpg'
 import MGS1 from './Images/MetalGear_gameplay2.jpg'

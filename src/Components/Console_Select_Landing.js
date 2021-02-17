@@ -1,5 +1,6 @@
 import React from 'react';
 import './Component.css';
+import '../App.css';
 
 
 function Currentconsole({ctitle, cpic, cadjust})

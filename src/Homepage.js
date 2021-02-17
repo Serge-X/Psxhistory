@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
+// import "./response.css";
 import cloud from './Images/Cloud_Character.png'
 import snake from './Images/Old_Solid_Snake_Character.png'
 import Homeabout from './Homeabout.js';

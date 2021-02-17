@@ -1,5 +1,7 @@
 import React from 'react';
 import './Component.css';
+import '../App.css';
+
 
 function Consolehistory({ctitle, cpic, cadjust})
 {

@@ -1,6 +1,6 @@
 import React from 'react';
 import HomePage from './Homepage.js';
-import "./response.css";
+import './App.css';
 import Playstation1 from './ConsolePages/Playstation1.js';
 import Playstation2 from './ConsolePages/Playstation2.js';
 import Playstation3 from './ConsolePages/Playstation3.js';

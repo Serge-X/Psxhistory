@@ -2,6 +2,7 @@ import React, {useState} from "react";
 // import {useSpring, animated,useTransition} from "react-spring";
 // import {Spring} from "react-spring/renderprops";
 import "./Component.css";
+import '../App.css';
 import background from "../Images/sony_background.png";
 import arrow from "../Images/ARROW2.png";
 import rightArrow from "../Images/ARROW2.png";

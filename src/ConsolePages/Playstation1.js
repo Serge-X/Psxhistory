@@ -1,4 +1,5 @@
 import React from 'react';
+// import '../App.css';
 import Currentconsole from "../Components/Console_Select_Landing.js";
 import ScrolltoTop from "../Components/Scrolltop.js";
 import HistorySelection from "../Homehistoryselct.js"
@@ -16,7 +17,7 @@ function Playstation1 () {
     return(
         <>
             <ScrolltoTop />
-            <Currentconsole ctitle="Playstation 1" cpic={ps1Pic} cadjust={"adjustment1"} />
+            <Currentconsole ctitle="Playstation 1" cpic={ps1Pic} cadjust="adjustment1" />
             <Famousgames Pcontainer={psxc} Ccontainer={ps1}/>
             <HistorySelection />
         </>

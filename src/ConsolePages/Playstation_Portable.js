@@ -18,7 +18,7 @@ function PSP(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole ctitle="Playstation Portable" cpic={pspPic} cadjust={"adjustmentpsp"} />
+        <Currentconsole ctitle="Playstation Portable" cpic={pspPic} cadjust="adjustmentpsp" />
         <Famousgames Pcontainer={pscxp} Ccontainer={psp} />
         <HistorySelection />
         </>

@@ -1,4 +1,5 @@
 import React from "react-dom";
+// import '../App.css';
 import Currentconsole from "../Components/Console_Select_Landing.js";
 import HistorySelection from "../Homehistoryselct.js"
 import ScrolltoTop from "../Components/Scrolltop.js";
@@ -16,7 +17,7 @@ function Playstation4(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole ctitle="Playstation 4" cpic={ps4Pic} cadjust={"adjustment4"} />
+        <Currentconsole ctitle="Playstation 4" cpic={ps4Pic} cadjust="adjustment4" />
         <Famousgames Pcontainer={pscx4} Ccontainer={ps4} />
         <HistorySelection />
         </>

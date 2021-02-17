@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+// import './App.css';
+// import "./response.css";
 import {Link} from 'react-router-dom';
 import Ps4_Button from './Images/PS4_Logo_Blue.png';
 import Ps1_Logo from './Images/new_ps1Logo2.png';

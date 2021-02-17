@@ -18,7 +18,7 @@ function PsVR(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole ctitle="Playstation Vr" cpic={psvr} cadjust="" />
+        <Currentconsole ctitle="Playstation Vr" cpic={psvr}  />
         <Famousgames Pcontainer={pcsvr} Ccontainer={vr} />
         <HistorySelection />
         </>
