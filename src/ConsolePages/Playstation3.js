@@ -18,7 +18,7 @@ function Playstation3(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole cpic={ps3Pic} ctitle="Playstation 3" cadjust="adjustment3"/>
+        <Currentconsole cpic={ps3Pic} ctitle="PlayStation 3" cadjust="adjustment3"/>
         <Famousgames Pcontainer={psxc3} Ccontainer={ps3} />
         <HistorySelection />
         </>

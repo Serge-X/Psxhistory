@@ -1,6 +1,4 @@
 import React from "react-dom";
-// import '../App.css';
-// import "../response.css";
 import Currentconsole from '../Components/Console_Select_Landing.js';
 import HistorySelection from "../Homehistoryselct.js"
 import ScrolltoTop from "../Components/Scrolltop.js";
@@ -18,7 +16,7 @@ function PsMove(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole ctitle="Playstation Move" cpic={psmove} cadjust="adjustmentmove"/>
+        <Currentconsole ctitle="PlayStation Move" cpic={psmove} cadjust="adjustmentmove"/>
         <Famousgames Pcontainer={pcsxm} Ccontainer={move}/>
         <HistorySelection />
         </>

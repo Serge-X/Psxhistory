@@ -10,7 +10,7 @@ import rightArrow from "../Images/ARROW2.png";
 //pcontainer and Ccontainer is expecting an array to be passed in for the parameter
 function Famousgames({Pcontainer, Ccontainer})
 {
-    //comment Pcontainer is for testing
+    //comment line below  is for testing
     // const Pcontainer=[FF7,GT2,tekken,MGS,RE1];
     const max=Pcontainer.length;
     // prop is used for animation purposed. Still testing
@@ -47,7 +47,6 @@ function Famousgames({Pcontainer, Ccontainer})
             <div id="Mdivide" on></div>
             <div id="Rright">
                 <p className={Ccontainer[count].extra}>{Ccontainer[count].title}</p>
-                 {/* <img  src={Pcontainer[count]} className="game" className={Ccontainer[count].adjustment} alt="picture" ></img> */}
                  <img  src={Pcontainer[count]}  className={Ccontainer[count].adjustment} alt="game pic" ></img>
             </div>
 

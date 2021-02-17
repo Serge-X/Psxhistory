@@ -20,7 +20,7 @@ function PsVita(){
     return(
         <>
         <ScrolltoTop />
-        <Currentconsole ctitle="Playstation Vita" cpic={psvita} cadjust="adjustmentvita"/>
+        <Currentconsole ctitle="PlayStation Vita" cpic={psvita} cadjust="adjustmentvita"/>
         <Famousgames Pcontainer={pscv} Ccontainer={vita} />
         <HistorySelection />
         </>
