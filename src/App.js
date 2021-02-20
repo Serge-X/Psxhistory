@@ -9,7 +9,7 @@ import PSP from './ConsolePages/Playstation_Portable.js';
 import PsVita from './ConsolePages/Playstation_Vita.js';
 import PsMove from './ConsolePages/Playstation_Move.js';
 import PsVR from './ConsolePages/Playstation_VR.js';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
 function App() {

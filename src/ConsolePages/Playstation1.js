@@ -13,6 +13,7 @@ import {ps1} from "../Components/Console_data.js";
 
 function Playstation1 () {  
     const psxc=[ff7,gt,tekken,MetalGear,Resident]
+    
     return(
         <>
             <ScrolltoTop />

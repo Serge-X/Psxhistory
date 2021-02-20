@@ -1,5 +1,5 @@
 import {useEffect} from "react";
-import {useLocation} from "react-router-dom";
+import {useLocation, Link,Redirect,useHistory} from "react-router-dom";
 
 
 export default function ScrollToTop(){
@@ -7,7 +7,9 @@ export default function ScrollToTop(){
 
     useEffect(() => {
         window.scrollTo(0,0);
-    }, [pathname])
+
+        
+    },[pathname])
     return null;
 
 }
