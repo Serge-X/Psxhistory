@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Psxhistory/static/css/main.19811a8e.chunk.css",
-    "main.js": "/Psxhistory/static/js/main.ccf17db4.chunk.js",
-    "main.js.map": "/Psxhistory/static/js/main.ccf17db4.chunk.js.map",
+    "main.js": "/Psxhistory/static/js/main.1b33d129.chunk.js",
+    "main.js.map": "/Psxhistory/static/js/main.1b33d129.chunk.js.map",
     "runtime-main.js": "/Psxhistory/static/js/runtime-main.3a88d5e6.js",
     "runtime-main.js.map": "/Psxhistory/static/js/runtime-main.3a88d5e6.js.map",
-    "static/js/2.d51ecfe6.chunk.js": "/Psxhistory/static/js/2.d51ecfe6.chunk.js",
-    "static/js/2.d51ecfe6.chunk.js.map": "/Psxhistory/static/js/2.d51ecfe6.chunk.js.map",
+    "static/js/2.aca93133.chunk.js": "/Psxhistory/static/js/2.aca93133.chunk.js",
+    "static/js/2.aca93133.chunk.js.map": "/Psxhistory/static/js/2.aca93133.chunk.js.map",
     "static/js/3.56d154f7.chunk.js": "/Psxhistory/static/js/3.56d154f7.chunk.js",
     "static/js/3.56d154f7.chunk.js.map": "/Psxhistory/static/js/3.56d154f7.chunk.js.map",
     "index.html": "/Psxhistory/index.html",
     "static/css/main.19811a8e.chunk.css.map": "/Psxhistory/static/css/main.19811a8e.chunk.css.map",
-    "static/js/2.d51ecfe6.chunk.js.LICENSE.txt": "/Psxhistory/static/js/2.d51ecfe6.chunk.js.LICENSE.txt",
+    "static/js/2.aca93133.chunk.js.LICENSE.txt": "/Psxhistory/static/js/2.aca93133.chunk.js.LICENSE.txt",
     "static/media/ARROW2.391819bd.png": "/Psxhistory/static/media/ARROW2.391819bd.png",
     "static/media/Bloodborne.4d3c5851.png": "/Psxhistory/static/media/Bloodborne.4d3c5851.png",
     "static/media/Cloud_Character.c0b5dc53.png": "/Psxhistory/static/media/Cloud_Character.c0b5dc53.png",
@@ -82,8 +82,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3a88d5e6.js",
-    "static/js/2.d51ecfe6.chunk.js",
+    "static/js/2.aca93133.chunk.js",
     "static/css/main.19811a8e.chunk.css",
-    "static/js/main.ccf17db4.chunk.js"
+    "static/js/main.1b33d129.chunk.js"
   ]
 }
